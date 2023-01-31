@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darryl Mira | Home</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="navContainer">
+      <div class="header">
+        <span></span>
+        <div class="hamburger" onclick="toggleMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+      <nav onclick="toggleMenu(this)">
+        <ul class="navList">
+          <li class="navLink"><a href="index.html">Home</a></li>
+          <li class="navLink"><a href="about.html">About</a></li>
+          <li class="navLink"><a href="projects.html">Projects</a></li>
+          <li class="navLink"><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="mainContainer">
+      <h1>Hello, World!</h1>
+      <p>Welcome to my website!</p>
+      <div class="overview">
+        <div class="index-about">
+          <div class="img">
+            <img src="static/images/about-me.jpg" alt="About Me Image">
+          </div>
+          <div class="desc">
+            <h2>Who Am I?</h2>
+            <p>I'm a developer, gamer, and an internet dweller all-in-one. Get to know me and what I'm all about!</p>
+            <a href="about.html"><button>Learn More</button></a>
+          </div>
+        </div>
+        <div class="projects">
+          <div class="img">
+            <img src="static/images/projects.jpg" alt="Project Image">
+          </div>
+          <div class="desc">
+            <h2>My Projects</h2>
+            <p>These are the projects I have personally made or have been a part of.</p>
+            <a href="projects.html"><button>Projects</button></a>
+          </div>
+
+        </div>
+        <div class="contact">
+          <div class="img">
+            <img src="static/images/contact.jpg" alt="Contact Me Image">
+          </div>
+          <div class="desc">
+            <h2>Get In Touch</h2>
+            <p>This page contains all the ways you can use to contact me.</p>
+            <a href="contact.html"><button>Questions?</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <p>&copy; Darryl Mira 2023</p>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
