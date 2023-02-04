@@ -9,23 +9,25 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <header class="navContainer">
-      <div class="header">
-        <span></span>
-        <div class="hamburger" onclick="toggleMenu(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
+    <header>
+      <div class="navContainer">
+        <div class="button">
+          <span></span>
+          <div id="hamburger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
         </div>
+        <nav id="nav">
+          <ul id="navList">
+            <li class="navLink"><a href="index.html">Home</a></li>
+            <li class="navLink"><a href="about.html">About</a></li>
+            <li class="navLink"><a href="projects.html">Projects</a></li>
+            <li class="navLink"><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav onclick="toggleMenu(this)">
-        <ul class="navList">
-          <li class="navLink"><a href="index.html">Home</a></li>
-          <li class="navLink"><a href="about.html">About</a></li>
-          <li class="navLink"><a href="projects.html">Projects</a></li>
-          <li class="navLink"><a href="contact.html">Contact Me</a></li>
-        </ul>
-      </nav>
     </header>
     <section class="mainContainer">
       <h1>Hello, World!</h1>
