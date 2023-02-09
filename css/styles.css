@@ -219,6 +219,12 @@ nav {
   margin: auto;
 }
 
+.return {
+  text-decoration: none;
+  color: unset;
+  display: block;
+  margin: 1rem;
+}
 
 /* SECTION END */
 
