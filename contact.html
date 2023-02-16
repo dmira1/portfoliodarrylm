@@ -30,14 +30,36 @@
         </nav>
       </div>
     </header>
-    <section class="mainContainer">
+    <section class="mainContainer contact-container">
       <h1>Contact Me</h1>
-      <p>Here are some of the ways to reach me</p>
-      <ul class="contactList">
-        <li><a href="https://www.linkedin.com/in/darryl-mira/">1. LinkedIn</a></li>
-        <li><a href="https://github.com/dmira1">2. GitHub</a></li>
-      </ul>
-      <h2 style="margin-top: 2rem; text-align: center;">Sadly, this page is under construction. Please come back again, at a later date.</h2>
+      <div class="contact-links">
+        <p>Here are the links to the pages you can reach me from.</p>
+        <ul class="contactList">
+          <li>1. <a href="https://www.linkedin.com/in/darryl-mira/">LinkedIn</a></li>
+          <li>2. <a href="https://github.com/dmira1">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="contact-form">
+        <h2 class="contact-title">You can also send me an email!</h2>
+        <p class="contact-desc">I'll get back to you within 2-3 business days.</p>
+        <form action="https://getform.io/f/3ea6a1a9-8441-4e30-b8f6-ffc0725434e1" method="POST">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="form-name"/>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="form-email">
+          </div>
+          <div>
+            <label for="text">Message</label>
+            <textarea name="text" id="form-text" style="resize:none;"></textarea>
+          </div>
+          <div>
+            <button type="submit" id="form-submit">Send</button>
+          </div>
+        </form>
+      </div>
     </section>
     <footer>
       <div>

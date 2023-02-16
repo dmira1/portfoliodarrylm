@@ -202,7 +202,70 @@ nav {
 /* Projects */
 
 
-/* Contact */
+/* Contact Start */
+.contact-container {
+  width: 100%;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+  background-color: #f9fde7;
+  border-radius: 3px;
+  box-shadow: 0px 5px 5px 1px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+form > div {
+  width: 100%;
+}
+
+form div > label {
+  width: 60%;
+  margin-top: 1rem;
+  text-align: left;
+  font-weight: 700;
+}
+
+.contact-title, .contact-desc {
+  width: 100%;
+  display: block;
+}
+
+form input, form textarea {
+  display: inline-block;
+  width: 60%;
+  height: 40px;
+}
+
+form textarea {
+  height: 100px;
+}
+
+form button {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  border: none;
+  background-color: #383434;
+  color: #f9fde7;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+form button:hover {
+  color:black;
+  filter: brightness(1000%);
+}
+/* Contact End */
 
 .skills > div > div > ul {
   display: flex;
